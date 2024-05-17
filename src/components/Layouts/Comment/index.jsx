@@ -108,7 +108,7 @@ const Comment = () => {
                         data-aos-duration="1000"
                         className="flex flex-col justify-center items-center w-[310px] bg-[#2e2f3e] rounded-lg gap-4"
                     >
-                        <form className="flex flex-col gap-8 py-6 px-4">
+                        <form onClick={handleSubmit} className="flex flex-col gap-8 py-6 px-4">
                             <div className="flex flex-col gap-2">
                                 <label
                                     htmlFor="nama"
@@ -172,7 +172,6 @@ const Comment = () => {
 
                             <div className="mt-4">
                                 <button
-                                    onClick={handleSubmit}
                                     type="submit"
                                     className="border border-[#a7a9be] rounded-lg px-4 py-3 hover:bg-[#a7a9be] transition-all duration-500 text-[#a7a9be] hover:text-[#0f0e17] text-md font-comforta font-medium leading-[120%] capitalize"
                                 >
