@@ -108,7 +108,7 @@ const Comment = () => {
                         data-aos-duration="1000"
                         className="flex flex-col justify-center items-center w-[310px] bg-[#2e2f3e] rounded-lg gap-4"
                     >
-                        <form onClick={handleSubmit} className="flex flex-col gap-8 py-6 px-4">
+                        <form onSubmit={handleSubmit} className="flex flex-col gap-8 py-6 px-4">
                             <div className="flex flex-col gap-2">
                                 <label
                                     htmlFor="nama"
