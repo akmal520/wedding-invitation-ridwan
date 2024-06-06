@@ -47,7 +47,7 @@ const Cover = () => {
                         <h3 className="text-xs lg:text-sm font-light text-white italic font-comforta w-[250px] lg:w-[300px]">
                             KPD YTH BAPAK/IBU/SAUDARA/I
                         </h3>
-                        <h3 className="text-xl lg:text-xl font-bold text-white font-comforta mt-2 mb-6 ">
+                        <h3 className="text-xl lg:text-xl font-bold text-white font-comforta mt-2 mb-6 capitalize">
                             {nama ? nama : ''}
                         </h3>
 
