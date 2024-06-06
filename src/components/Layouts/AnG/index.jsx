@@ -86,12 +86,12 @@ const Gift = () => {
 
                         <div className="flex flex-col justify-center items-center gap-3">
                             <h2 className="font-comforta font-bold text-[#a7a9be] text-xl">
-                                BRI - xxxxxxxxxx
+                                Seabank - 901350361499
                             </h2>
                             <h1 className="font-comforta font-bold text-[#a7a9be] text-lg mb-2">
-                                Siti Jamilah Yofari
+                                Muhammad Ridwan
                             </h1>
-                            <ButtonCopy textToCopy="Rek Lala" />
+                            <ButtonCopy textToCopy="901350361499" />
                         </div>
                     </div>
 
