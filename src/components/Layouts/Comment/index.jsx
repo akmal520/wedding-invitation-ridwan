@@ -123,7 +123,7 @@ const Comment = () => {
                                     value={formData.nama}
                                     onChange={handleChange}
                                     required
-                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 w-full text-start"
+                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 w-full text-start text-white"
                                 />
                             </div>
                             <div className="flex flex-col gap-2">
@@ -139,7 +139,7 @@ const Comment = () => {
                                     value={formData.pesan}
                                     onChange={handleChange}
                                     required
-                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 resize-y h-[100px] w-full text-start"
+                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 resize-y h-[100px] w-full text-start text-white"
                                 ></textarea>
                             </div>
                             <div className="w-full text-start flex flex-col gap-2">
@@ -155,7 +155,7 @@ const Comment = () => {
                                     value={formData.kehadiran}
                                     onChange={handleChange}
                                     required
-                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 w-full text-start"
+                                    className="border border-[#a7a9be] bg-[#262733] rounded-lg px-4 py-2 w-full text-start text-white"
                                 >
                                     <option disabled value="">
                                         Pilih Kehadiran
